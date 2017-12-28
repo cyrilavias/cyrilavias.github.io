@@ -96,7 +96,7 @@ banner
 }
 
 .top-nav-collapse {
-    padding: 0; 
+    padding: 0;
     background: rgba(28,74,90, 0.9);
 }
 
@@ -141,7 +141,7 @@ banner
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
+	background-color: #2f6390b8;
 	min-height: 650px;
 }
 .banner-info{
@@ -153,11 +153,17 @@ banner
 .banner-text{
 	color: #fff;
 }
+.size-title {
+	font-size: 28px;
+}
+.size-title-mini {
+	margin-top: 35px;
+	font-size: 20px;
+}
 .banner-text h1{
-	font-family: 'Candal', sans-serif;
-	font-size: 35px;
-	text-transform: uppercase;
-	padding-bottom:15px; 
+	font-family: 'Raleway', sans-serif;
+	font-size: 70px;
+	padding-bottom:15px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
@@ -367,7 +373,7 @@ cta -2
 .text-primary {
     color: #0cb8b6;
 }
-.icon-mar 
+.icon-mar
 {
 	margin-right: 7px;
 }
@@ -521,4 +527,16 @@ footer
     .banner-text h1{
         font-size: 24px;
     }
+		.size-title {
+				font-size: 18px;
+		}
+		.size-title p{
+				margin: 0px;
+		}
+		.size-title-mini {
+				font-size: 15px;
+		}
+		.size-title-mini p{
+				margin: 0px;
+		}
 }
