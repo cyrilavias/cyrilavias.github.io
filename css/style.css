@@ -492,7 +492,7 @@ footer
 @media (min-width: 551px) and (max-width: 980px){
 
 }
-@media (min-width: 220px) and (max-width: 551px){
+@media (min-width: 351px) and (max-width: 551px){
     .testi-info{
         margin-bottom: 20px;
     }
@@ -541,6 +541,59 @@ footer
 		}
 		.navbar-brand
 		{
-			font-size: 17px;
+			font-size: 20px;
+		}
+}
+
+@media (min-width: 220px) and (max-width: 351px){
+		.testi-info{
+				margin-bottom: 20px;
+		}
+		.marb20{
+				margin-top: 30px;
+		}
+		h2{
+				font-size: 24px;
+				line-height: 1.2;
+		}
+		.section-title{
+				margin-bottom: 30px;
+		}
+		.medi-info {
+		border: 0px;
+		border-bottom: 1px solid #fff;
+		}
+		.service-info{
+				margin-top: 20px;
+				margin-bottom: 0px;
+		}
+		.caption h3 {
+		font-size: 14px;
+		}
+		.caption p{
+		font-size: 12px;
+		padding-bottom: 5px;
+		}
+		.caption ul li a i{
+				font-size: 14px;
+		}
+		.banner-text h1{
+				font-size: 24px;
+		}
+		.size-title {
+				font-size: 18px;
+		}
+		.size-title p{
+				margin: 0px;
+		}
+		.size-title-mini {
+				font-size: 15px;
+		}
+		.size-title-mini p{
+				margin: 0px;
+		}
+		.navbar-brand
+		{
+			font-size: 15px;
 		}
 }
