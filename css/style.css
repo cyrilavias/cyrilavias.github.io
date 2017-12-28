@@ -82,8 +82,8 @@ banner
 
 .navbar-brand
 {
-	font-family: 'Chewy', cursive;
-	font-size: 32px;
+	font-family: inherit;
+	font-size: 22px;
 }
 
 .navbar-brand img {
@@ -92,7 +92,7 @@ banner
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #EA6045;
+    color: #fff;
 }
 
 .top-nav-collapse {
@@ -538,5 +538,9 @@ footer
 		}
 		.size-title-mini p{
 				margin: 0px;
+		}
+		.navbar-brand
+		{
+			font-size: 20px;
 		}
 }
