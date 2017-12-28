@@ -95,6 +95,10 @@ banner
     color: #fff;
 }
 
+.navbar-collapse {
+	  background: #0c1f427d;
+}
+
 .top-nav-collapse {
     padding: 0;
     background: rgba(28,74,90, 0.9);
@@ -189,7 +193,7 @@ banner
 services
 ***************************************/
 .icon i{
-	color: #0cb8b6;
+	color: #5890c1;
 	font-size: 45px;
 	margin-bottom: 25px;
 }
@@ -206,7 +210,7 @@ services
 cta-1
 ***************************************/
 .schedule-tab {
-	background-color: #0CB8B6;
+	background-color: #5890c1;
 	float: left;
 }
 .medi-info{
@@ -234,7 +238,7 @@ cta-1
 td {
     border: 0px solid #ededed;
     border-top: 1px solid rgba(216, 216, 216, 0.5);
-    padding: 6px 10px 6px 0;
+    padding: 6px 10px 6px 10px;
 }
 .medi-info, .time-info{
     font-size: 14px;
